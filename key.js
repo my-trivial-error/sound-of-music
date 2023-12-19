@@ -1,12 +1,12 @@
-var A[], B[], C[], D[], E[], F[], G[];
-A[5] = 440;
-B[5] = 493.886;
-C[5] = 524;
-D[5] = 587.33;
-E[5] = 659.25;
-F[5] = 698.45;
-G[5] = 775.08;
-A[6] = 880;
+var A5, B5, C5, D5, E5, F5, G5, A6;
+A5 = 440;
+B5 = 493.886;
+C5 = 524;
+D5 = 587.33;
+E5 = 659.25;
+F5 = 698.45;
+G5 = 775.08;
+A6 = 880;
 function beep(freq, duration, vol) {
     var context = new(window.AudioContext || window.webkitAudioContext);
     const oscillator = context.createOscillator();
