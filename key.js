@@ -7,14 +7,14 @@ E5 = 659.25;
 F5 = 698.45;
 G5 = 775.08;
 A6 = 880;
-function beep(freq, duration, vol) {
+function note(frequency, duration, vol) {
     var context = new(window.AudioContext || window.webkitAudioContext);
     const oscillator = context.createOscillator();
     const gain = context.createGain();
     gain.gain.setValueAtTime(0, context.currentTime);
     gain.gain.linearRampToValueAtTime(1, context.currentTime + 0.002);
     oscillator.connect(gain);
-    oscillator.frequency.value = freq;
+    oscillator.frequency.value = frequency;
     oscillator.type = "square";
     gain.connect(context.destination);
     oscillator.start(context.currentTime);
