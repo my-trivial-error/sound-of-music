@@ -14,5 +14,3 @@ function beep(freq = 660, duration = 90, vol = 50) {
     oscillator.stop(context.currentTime + duration * .001);
     oscillator.onended = () => context.close();
 }
-wait(1000);
-beep();
