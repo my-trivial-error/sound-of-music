@@ -1,6 +1,6 @@
 var A;
 A = 660;
-function beep(freq, duration, vol) {
+function beep(freq = 660, duration = 5000, vol = 50) {
     var context = new(window.AudioContext || window.webkitAudioContext);
     const oscillator = context.createOscillator();
     const gain = context.createGain();
@@ -14,4 +14,5 @@ function beep(freq, duration, vol) {
     oscillator.stop(context.currentTime + duration * .001);
     oscillator.onended = () => context.close();
 }
-beep(A, 5000, 30);
+wait(1000);
+beep();
