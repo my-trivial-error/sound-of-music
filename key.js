@@ -1,6 +1,7 @@
 var A, B, C, D, E, F, G;
-A = 660;
-B = 600;
+A = 440;
+B = 493.886;
+C = 524;
 function beep(freq, duration, vol) {
     var context = new(window.AudioContext || window.webkitAudioContext);
     const oscillator = context.createOscillator();
