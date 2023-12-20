@@ -5,7 +5,7 @@ A4 = 440;B4 = 493.89;C4 = 523.25;D4 = 587.33;E4 = 659.25;F4 = 698.45;G4 = 775.08
 BB4 = 466.16;DB4 = 554.37;EB4 = 622.25;GB4 = 739.99;AB4 = 415.30;
 A5 = A4*2;B5 = B4*2;C5 = C4*2;D5 = D4*2;E5 = E4*2;F5 = F4*2;G5 = G4*2;
 BB5 = BB4*2;DB5 = DB4*2;EB5 = EB4*2;GB5 = GB4*2;AB5 = AB4*2;
-A43 = A4/2;B3 = B4/2;C3 = C4/2;D3 = D4/2;E3 = E4/2;F3 = F4/2;G3 = G4/2;
+A3 = A4/2;B3 = B4/2;C3 = C4/2;D3 = D4/2;E3 = E4/2;F3 = F4/2;G3 = G4/2;
 BB3 = BB4/2;DB3 = DB4/2;EB3 = EB4/2;GB3 = GB4/2;AB3 = AB4/2;
 function note(freq, duration, vol) {
     var context = new(window.AudioContext || window.webkitAudioContext);
