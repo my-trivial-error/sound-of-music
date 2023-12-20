@@ -1,5 +1,5 @@
 body {
-    background: rgba(0, 0, 0, 1);
+    background: rgba(255, 255, 255, 1);
 }
 button {
     margin: none;
@@ -8,8 +8,13 @@ button {
     background: rgba(255, 255, 255, 1);
     padding: 20px;
     padding-top: 200px;
+    box-shadow: 2px 2px 5px 2px;
 }
 button:hover {
     cursor: pointer;
     background: rgba(200, 200, 200, 1);
+}
+.color-additive {
+    background: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
 }

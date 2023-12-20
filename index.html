@@ -7,28 +7,36 @@
             <title>test</title>
         </head>
         <body>
-            <button onclick="note(A4, 700, 50)">A4</button>
-            <button onclick="note(B4, 700, 50)">B4</button>
-            <button onclick="note(C4, 700, 50)">C4</button>
-            <button onclick="note(D4, 700, 50)">D4</button>
-            <button onclick="note(E4, 700, 50)">E4</button>
-            <button onclick="note(F4, 700, 50)">F4</button>
-            <button onclick="note(G4, 700, 50)">G4</button>
-            <!-- This does not work, sadly -->
-            <button onclick="note(A5, 600, 50)">A5</button>
-            <button onclick="note(B5, 600, 50)">B5</button>
-            <button onclick="note(C5, 600, 50)">C5</button>
-            <button onclick="note(D5, 600, 50)">D5</button>
-            <button onclick="note(E5, 600, 50)">E5</button>
-            <button onclick="note(F5, 600, 50)">F5</button>
-            <button onclick="note(G5, 600, 50)">G5</button>
-            <!-- N/A -->
-            <button onclick="note(A6, 500, 50)">A6</button>
-            <button onclick="note(B6, 500, 50)">B6</button>
-            <button onclick="note(C6, 500, 50)">C6</button>
-            <button onclick="note(D6, 500, 50)">D6</button>
-            <button onclick="note(E6, 500, 50)">E6</button>
-            <button onclick="note(F6, 500, 50)">F6</button>
-            <button onclick="note(G6, 500, 50)">G6</button>
+            <div class="black-keys">
+                <button onclick="note(BB3, 700, 50)" class="color-additive">Bb5</button>
+                <button onclick="note(DB3, 700, 50)" class="color-additive">Db5</button>
+                <button onclick="note(EB3, 700, 50)" class="color-additive">Db5</button>
+                <button onclick="note(GB3, 700, 50)" class="color-additive">Bb5</button>
+            </div>
+            <div class="white-keys"></div>
+                <button onclick="note(A3, 700, 50)">A4</button>
+                <button onclick="note(B3, 700, 50)">B4</button>
+                <button onclick="note(C3, 700, 50)">C4</button>
+                <button onclick="note(D3, 700, 50)">D4</button>
+                <button onclick="note(E3, 700, 50)">E4</button>
+                <button onclick="note(F3, 700, 50)">F4</button>
+                <button onclick="note(G3, 700, 50)">G4</button>
+                <!-- This does not work, sadly -->
+                <button onclick="note(A4, 600, 50)">A5</button>
+                <button onclick="note(B4, 600, 50)">B5</button>
+                <button onclick="note(C4, 600, 50)">C5</button>
+                <button onclick="note(D4, 600, 50)">D5</button>
+                <button onclick="note(E4, 600, 50)">E5</button>
+                <button onclick="note(F4, 600, 50)">F5</button>
+                <button onclick="note(G4, 600, 50)">G5</button>
+                <!-- N/A -->
+                <button onclick="note(A5, 500, 50)">A6</button>
+                <button onclick="note(B5, 500, 50)">B6</button>
+                <button onclick="note(C5, 500, 50)">C6</button>
+                <button onclick="note(D5, 500, 50)">D6</button>
+                <button onclick="note(E5, 500, 50)">E6</button>
+                <button onclick="note(F5, 500, 50)">F6</button>
+                <button onclick="note(G5, 500, 50)">G6</button>
+            </div>
         </body>
     </html>

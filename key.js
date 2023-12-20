@@ -1,9 +1,12 @@
 var A2, B2, C2, D2, E2, F2, G2, A3, B3, C3, D3, E3, F3, G3;
-var A4, B4, C4, D4, E4, F4, G4, A5, B5, C5, D5, E5, F5, G5;
+var A4, B4, C4, D4, E4, F4, G4, A5, BB5, B5, C5, DB5, D5, EB5, E5, F5, GB5, G5, AB5;
 var A6, B6, C6, D6, E6, F6, G6, A7, B7, C7, D7, E7, F7, G7;
-A5 = 440;B5 = 493.89;C5 = 523.25;D5 = 587.33;E5 = 659.25;F5 = 698.45;G5 = 775.08;
-A6 = A5*2;B6 = B5*2;C6 = C5*2;D6 = D5*2;E6 = E5*2;F6 = F5*2;G6 = G5*2;
-A4 = A5/2;B4 = B5/2;C4 = C5/2;D4 = D5/2;E4 = E5/2;F4 = F5/2;G4 = G5/2;
+A4 = 440;B4 = 493.89;C4 = 523.25;D4 = 587.33;E4 = 659.25;F4 = 698.45;G4 = 775.08;
+BB4 = 466.16;DB4 = 554.37;EB4 = 622.25;GB4 = 739.99;AB4 = 415.30;
+A5 = A4*2;B5 = B4*2;C5 = C4*2;D5 = D4*2;E5 = E4*2;F5 = F4*2;G5 = G4*2;
+BB5 = BB4*2;DB5 = DB4*2;EB5 = EB4*2;GB5 = GB4*2;AB5 = AB4*2;
+A43 = A4/2;B3 = B4/2;C3 = C4/2;D3 = D4/2;E3 = E4/2;F3 = F4/2;G3 = G4/2;
+BB3 = BB4/2;DB3 = DB4/2;EB3 = EB4/2;GB3 = GB4/2;AB3 = AB4/2;
 function note(freq, duration, vol) {
     var context = new(window.AudioContext || window.webkitAudioContext);
     const oscillator = context.createOscillator();
