@@ -8,7 +8,7 @@ button {
     color: rgba(0, 0, 0, 1);
     background: rgba(255, 255, 255, 1);
     padding: 20px;
-    padding-top: 200px;
+    padding-top: 250px;
     box-shadow: 2px 2px 5px 2px;
 }
 button:hover {
@@ -33,5 +33,25 @@ button:hover {
     padding-top: 140px;
 }
 .Dcolor-additive:hover {
+    background: rgba(50, 50, 50, 1);
+}
+.Ecolor-additive {
+    background: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    margin-left: 120px;
+    position: absolute;
+    padding-top: 140px;
+}
+.Ecolor-additive:hover {
+    background: rgba(50, 50, 50, 1);
+}
+.Gcolor-additive {
+    background: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    margin-left: 120px;
+    position: absolute;
+    padding-top: 140px;
+}
+.Gcolor-additive:hover {
     background: rgba(50, 50, 50, 1);
 }
