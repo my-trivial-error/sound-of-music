@@ -14,7 +14,11 @@ button:hover {
     cursor: pointer;
     background: rgba(200, 200, 200, 1);
 }
-.color-additive {
+.Bcolor-additive {
     background: rgba(0, 0, 0, 1);
     color: rgba(255, 255, 255, 1);
+    margin-left: 30px;
+}
+.Bcolor-additive:hover {
+    background: rgba(10, 10, 10, 1);
 }
