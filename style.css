@@ -25,3 +25,7 @@ button:hover {
 .color-additive:hover {
     background: rgba(100, 100, 100, 1);
 }
+.keys {
+    position: fixed;
+    bottom: 0;
+}
