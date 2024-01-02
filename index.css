@@ -6,7 +6,7 @@
     padding: 30px;
     background-repeat: no-repeat;
 }
-h1 {
+.dark {
     font-size: 50pt;
     background: rgba(0, 0, 0, 0.7);
     padding: 20px;
