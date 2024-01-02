@@ -7,7 +7,9 @@
     background-repeat: no-repeat;
 }
 .dark {
-    font-size: 50pt;
+    max-width: 90%;
+    font-family: san-serif;
+    font-size: 40pt;
     background: rgba(0, 0, 0, 0.7);
     padding: 20px;
     margin-right: 20px;
