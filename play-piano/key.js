@@ -9,7 +9,6 @@ BB5 = BB4*2;DB5 = DB4*2;EB5 = EB4*2;GB5 = GB4*2;AB5 = AB4*2;
 A3 = A4/2;B3 = B4/2;C3 = C4/2;D3 = D4/2;E3 = E4/2;F3 = F4/2;G3 = G4/2;
 BB3 = BB4/2;DB3 = DB4/2;EB3 = EB4/2;GB3 = GB4/2;AB3 = AB4/2;
 function note(freq, duration, vol) {
-    duration = 0;
     var context = new(window.AudioContext || window.webkitAudioContext);
     const oscillator = context.createOscillator();
     const gain = context.createGain();
