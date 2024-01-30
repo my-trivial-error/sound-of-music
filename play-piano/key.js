@@ -42,3 +42,4 @@ function holdingKeyBB3() {
         note(BB3, timeCache, 40);
     });
 }
+holdingKeyBB3();
