@@ -16,7 +16,7 @@ function note(freq, duration, vol) {
     gain.gain.linearRampToValueAtTime(1, context.currentTime + 0.002);
     oscillator.connect(gain);
     oscillator.frequency.value = freq;
-    oscillator.type = "sawtooth";
+    oscillator.type = "sine";
     gain.connect(context.destination);
     oscillator.start(context.currentTime);
     oscillator.stop(context.currentTime + duration * .001);
