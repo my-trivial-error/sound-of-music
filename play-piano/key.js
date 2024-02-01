@@ -30,7 +30,7 @@ function holdingKeyBB3() {
     keyBB3.addEventListener('mousedown', function() {
         mouseDown = true;
             setTimeout(function() {
-                if(mouseDown) {
+                if(mouseDown = true) {
                     start = new Date();
                 }
             }, 500);
