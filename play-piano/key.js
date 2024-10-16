@@ -22,7 +22,7 @@ function note(freq, duration, vol) {
     oscillator.stop(context.currentTime + duration * .001);
     oscillator.onended = () => context.close();
 }
-function holdingKeyBB3() {
+/* function holdingKeyBB3() {
     var mouseDown = false;
     var startHold;
     var endHold;
@@ -42,4 +42,4 @@ function holdingKeyBB3() {
         note(BB3, timeCache, 40);
     });
 }
-holdingKeyBB3();
+holdingKeyBB3(); */
